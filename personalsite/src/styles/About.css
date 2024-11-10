@@ -18,3 +18,13 @@
         line-height: 1.6;
         max-width: 800px;
     }
+
+
+
+    .About .Card {
+        margin-top: 80px; 
+        margin-bottom: 40px;
+        margin-left: 100px;
+        margin-right: 100px; 
+        max-width: 1200px; 
+    }
