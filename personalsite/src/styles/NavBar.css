@@ -2,13 +2,9 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background: #E8E8E8;
     padding: 30px 50px 30px 50px;
 }
 
-.NavLinks {
-    height: 15vh;
-}
 
 nav ul {
     display: flex;
@@ -32,3 +28,40 @@ nav ul li a:hover {
 color: white;
 transition: .3s;
             }
+
+.navlinks {
+    height: 15vh;
+}
+
+.Mobile {
+    display: none;
+}
+
+@media (max-width: 768px)
+{
+    .Desktop {
+        display: none;
+    }
+
+    .Mobile {
+        display: flex;
+        height: 15vh;
+        justify-content: space-between;
+    }
+
+    .Hamburger {                                            
+        cursor: pointer;
+    }
+
+    .navlinks ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        position: absolute;
+        border-top: 3px solid black;
+        top: 15vh;
+        right: 0;
+        height: 50vh;
+        width: 35%;
+    }
+}
